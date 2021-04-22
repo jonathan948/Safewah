@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+   .anisha,.anisha,.anisha{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px #F4F4F9;
+    width: 293px;
+    height: 290px;
+    margin: 0 auto;
+    }
+
+
+   .btn-3,.btn-3,.btn-3{
+    background: #21A4C4;
+    border-radius: 8px;
+    width: 105px;
+    height: 34px;
+    border: solid 1px  #21A4C4;
+    }
+
+    .Bakare,.Bakare,.Bakare{
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 34%;
+    text-align: center;
+    color: #6EB245;
+    }
+
+    .btn{
+    width: 220px;
+    height: 62px;
+    outline: none !important;
+    box-shadow: none;
+    margin-right: 30%;
+    background: #6EB245;
+    border: 0.5px solid #6EB245;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: #ffffff;
+    margin: 20px;
+    }
+
+    .form-control-{
+    width: 100px;
+    height: 34px; 
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 8px;
+    }
+    
+    
+    .form-control{
+    width: 300px;
+    height: 62px;
+    background: #F9FFF5;
+    border: 0.5px solid #6EB245;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 20px;
+    }
+
+    .profel-1{
+    border-radius: 50%;
+    border-left: solid 9px palegreen ;
+    }
+    
+    .mob-logo{
+    display: none;
+    }
+    
+    .profel-2{
+    border-radius: 50%;
+    border-left: solid 9px rgb(114, 114, 209);
+    }
+    
+    .profel-3{
+    border-radius: 50%;
+    border-left: solid 9px pink ;
+    }
+
+    /* MOBIL NAVBAR SECTION */
+
+    .mobil-nav{
+    font-size:30px;
+    cursor: pointer;
+    float: right;
+    margin-right: 18px;
+    display: none;
+    }
+    
+   .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(254, 150, 198, 0.3) 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    }
+          
+    .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    }
+          
+    .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+          
+    .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+     
+    }
+
+   /* FOOTER SECTION */
+   ul{
+    list-style: none;
+    }
+
+    .footer-section-bg{
+    background: rgba(184, 219, 217, 0.2);
+    margin-top: 90px;
+    padding: 20px;
+    }
+
+    .information{
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 204.18%;
+    color: #000000;
+    }
+
+    .copyright{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.98);
+    }
+
+
+    .footer-section-sm {
+    display: none;
+    background: rgba(184, 219, 217, 0.2);
+    margin-top: 90px;
+    padding: 20px;
+    }
+
+    .Distributors-{
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 161.68%;
+    color: #795A69;
+    }
+
+    
+    .form-control-{
+    width: 100px;
+    height: 34px; 
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 12px;
+    }
+
+    @media(max-width: 768px){
+    .anisha,.anisha,.anisha{
+    width: 90%;
+    height: 290px;
+    margin: 0 auto;
+    }   
+    }
+
+    @media(max-width: 540px){
+    #nav{
+    display: none;
+    }
+    #myNav{
+    display: block;
+    }
+    
+    #opn{
+    display: block;
+    float: right;
+    margin-right: 3%;
+    }
+    #sec{
+    display: block;
+    margin-top: 10px;
+    }
+    
+    #my-logo{
+    margin-left: 10px;
+    }
+
+    .mobil-nav{
+    display: block;
+    }
+    .mob-logo{
+    display: block;
+    margin: 10px;
+    }
+
+    .footer-section-bg {
+    display: none;
+    }
+    .footer-section-sm {
+    display: block;
+    }
+    .arrow{
+    margin-left: 28px;    
+    }
+    }
+
+   

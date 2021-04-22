@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Safewash </title>
+</head>
+
+<body>
+
+    <!-- MOBIL NAVBAR SECTION -->
+    <span class="mobil-nav" stle="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <a href=""><img class="mob-logo" src="./Image/logo.png" alt=""></a>
+    <div id="myNav" class="overlay nav-mob">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html" id="mob-nav-link">Home</a>
+            <a href="#About us" id="mob-nav-link">About Us</a>
+            <a href="Distributors-page.html" id="mob-nav-link">Become a Distributor</a>
+            <a href="#contact" id="mob-nav-link">Contact</a>
+        </div>
+      </div>
+      
+      
+
+    <section>
+        <!-- NAVBAR SECTION -->
+        <section class="navbar-desktop">
+
+            <nav class="container navbar navbar-expand-lg navbar-light bg-ligh" id="nav">
+                <a href="index.html"><img src="./Image/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link m-4" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-4" href="#About us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-4" href="Distributors-page.html">Become a Distributor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-4" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+   
+
+            <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active dash"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1" class="dash"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2" class="dash"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3" class="dash"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="row carousel-row">
+                          <div class="col-md-6">
+                            <p class="carousel-content-1">A Liquid Laundry Detargent
+                                Specifically Formulated for </p>
+                            <p class="item-content-1">Babies and Children Clothings</p>
+                            <button type="button" class="btn btn-succ mt-4">Find Distributors Around
+                                You?</button>
+                          </div>
+
+                          <div class="col-md-6">
+                            <img class="baby-img" src="./Image/Baby.png" alt="" width="">  
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="carousel-item">
+                      <div class="row carousel-row">
+                          <div class="col-md-6">
+                            <img class="big-img" src="./Image/big boy.png" alt="">
+                          </div>
+
+                          <div class="col-md-6">
+                            <p class="carousel-content-2">Mild and Gentle On Your Baby’s Soft Skin </p>
+                            <p class="item-content-2">Happy Fragrance</p>
+                            <button type="button" class="btn- btn-succ mt-4">Find Distributors Around
+                                You?</button>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="carousel-item">
+                      <div class="row carousel-row">
+                          <div class="col-md-6">
+                            <p class="carousel-content-3">Keeps Your Baby Smiling <br> All Day </p>
+                            <p class="item-content-3">Zero Skin Irritations</p>
+                            <button type="button" class="btn-n btn-succ mt-4">Find Distributors Around
+                                You?</button>
+                          </div>
+                          <div class="col-md-6">
+                            <img class="small-imag" src="./Image/small-girl.png" alt="" width="100%">
+                          </div>
+                      </div>
+                  </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+              </div>
+
+        <!-- <section class="carousel-sec">
+                <div class="container p-5 ">
+                    <div id="carouselExampleIndicators" class="carousel " data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active dash"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="dash"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="dash"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4" class="dash"></li>
+                        </ol>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active carousel-chid-1" style="background-color: white;">
+                                <div class="row my-row-r ">
+                                    <div class=" col-md-6">
+                                        <p class="carousel-content-1">A Liquid Laundry Detargent
+                                            Specifically Formulated for </p>
+                                        <p class="item-content-1">Babies and Children Clothings</p>
+                                        <button type="button" class="btn btn-succ mt-4">Find Distributors Around
+                                            You?</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="baby-img" src="./Image/Baby.png" alt="" width="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item  carousel-chid-2" style="background-color: white;">
+                                <div class="row my-row-r">
+                                    <div class=" col-md-6 p-">
+                                        <img class="big-img" src="./Image/big boy.png" alt="">
+                                    </div>
+                                    <div class="baby- col-md-6">
+                                        <p class="carousel-content-2">Mild and Gentle On Your Baby’s Soft Skin </p>
+                                        <p class="item-content-2">Happy Fragrance</p>
+                                        <button type="button" class="btn- btn-succ mt-4">Find Distributors Around
+                                            You?</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item  carousel-chid-3" style="background-color: white;">
+                                <div class="row my-row-r">
+                                    <div class=" col-md-6 p-5 pt-5">
+                                        <p class="carousel-content-3">Keeps Your Baby Smiling <br> All Day </p>
+                                        <p class="item-content-3">Zero Skin Irritations</p>
+                                        <button type="button" class="btn-n btn-succ mt-4">Find Distributors Around
+                                            You?</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="small-imag" src="./Image/small-girl.png" alt="" width="113%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="carousel-item  carousel-chid-4" style="background-color: white;">
+                            <div class="row big-woman">
+                                <div class="Liquid col-md-12 mt-5">
+                                    <p class=" carousel-content-4">Remove 99% Food and <br> Tough Stains </p>
+                                    <p class="item-content-4">Preserves Clothing Colors</p>
+                                    <button type="button" class="btn-w btn-succe">Become A Distributors</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                </div>
+            </section>  -->
+        </section> 
+
+
+
+        <!-- MAIN SECTION -->
+        <section class="main-section">
+            <div class="container">
+                <h2 class="text-center">Notable Feautures</h2>
+                <p class="main-section-content-1 text-center">We are moved to create a premium, harmful chemical free, sparkling clean
+                    liquid
+                    laundry soap <br>
+                    clinically safe for babies and children’s health.</p>
+
+                <div class="row my-row-r p-4">
+                    <div class="col-md-6">
+                        <img class="baby-2" src="./Image/baby2.png" alt="">
+                        <img class="victor-13 p-" src="./Image/Vector 13.png" alt="">
+                        <img class="victor-13 p-" src="./Image/Vector 14.png" alt="">
+
+                        <div class="vecto1 ">
+                            <img class="v mt-5" src="./Image/Vecto1.png" alt="">
+                            <p class=" main-section-content-2">Unique</p>
+                            <p class="move-1">We are moved to create a premium, harmful chemical free, sparkling clean
+                                liquid laundry soap .</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <img class="victor5" src="./Image/victor5.png" alt="">
+                        <p class=" main-section-content-3">Protection</p>
+                        <p class="main-section-content-4">We are moved to create a premium, harmful chemical free, sparkling clean
+                            liquid
+                            laundry soap .</p>
+
+
+                        <img class="mt-4" src="./Image/Vect2.png" alt="">
+                        <p class="main-section-content-5">Eco-friendly</p>
+                        <p class="move-1 ">We are moved to create a premium, harmful chemical free, sparkling clean
+                            liquid
+                            laundry soap .</p>
+
+                        <img class="mt-4" src="./Image/Vec.png" alt="">
+                        <p class="main-section-content-6">Unique</p>
+                        <p class="move-1">We are moved to create a premium, harmful chemical free, sparkling clean
+                            liquid
+                            laundry soap .</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--ABOUT US MAIN SECTION -->
+        <section class="About-us-sec" id="About us">
+            <div class="container">
+                <div class="row my-row-r ">
+                    <div class="col-md-6 about-content-col">
+                        <h2 class="about-content">About Us</h2>
+                        <p class=" about-content-2">We use our knowledge and expertise to provide the most effecient, effective and
+                            environmentally
+                            friendly cleaning possible. Having in mind the daily increase in percentage of children
+                            cancer
+                            patients world wide, skin reactions caused by harmful chemicals, high priced soaps leading
+                            to
+                            parents using products not ideal for children.</p>
+                        <button type="button" class="btn-2 btn-success">Become A Distributor</button>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="mama w-75 h-100" src="./Image/mama-removebg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Distributors-MAIN SECTION -->
+        <section class="profel-SECTION" id="contact">
+            <div class="container">
+                <h2 class="distributtor-content mt-5">See Our Top Distributors</h2>
+                <p class="distributtor-content-2">We use our knowledge and expertise to providethe most effecient, effective and
+                    environmentally <br>
+                    friendly cleaning possible</p>
+                <div class="row my-row-">
+
+                    <div class="col-md-4 text-center">
+                        <img class="profel-1" src="./Image/profel-1.png" alt="" width="30%"
+                            style="position:relative; top: 80px;">
+                        <div class="anisha text-center p-3 rounded">
+                            <h6 class=" distributtor-content-3">Kudirat Bakare</h6>
+                            <p class=" distributtor-content-4">Surulere, Lagos State. <br>
+                                0903026729</p>
+                            <button type="button" class="btn-3 btn-info">Contactr</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <img class="profel-2" src="./Image/profel-2.png" alt="" width="30%"
+                            style="position:relative; top: 80px;">
+                        <div class="anisha text-center p-3 rounded">
+                            <h6 class=" distributtor-content-3">Ibikunle Ventures</h6>
+                            <p class="  distributtor-content-4">Surulere, Lagos State. <br>
+                                09030267295</p>
+                            <button type="button" class="btn-3 btn-info">Contact</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <img class="profel-3" src="./Image/profel-3.png" alt="" width="30%"
+                            style="position:relative; top: 80px;">
+                        <div class="anisha text-center p-3 rounded">
+                            <h6 class=" distributtor-content-3">Rosemerry’s Shop</h6>
+                            <p class=" distributtor-content-4 ">Surulere, Lagos State. <br>
+                                09030267295</p>
+                            <button type="button" class="btn-3 btn-info">Contact</button>
+                        </div>
+                    </div>
+
+                    <div class="col text-center mt-5 ">
+                        <p class="distributtor-content-5">We use our knowledge and expertise to providethe most effecient, effective and
+                            environmentally <br>
+                            friendly cleaning possible</p>
+                        <button type="button" class="btn-4 btn-success">Find Distributors Around You?</button>
+
+                    </div>
+                </div>
+        </section>
+
+        <!-- REACH OUT SECTION -->
+        <section class="reach">
+            <div class="container">
+                <div class="row my-row-r mt-3">
+                    <div class="col-md-6 be">
+                        <img class="baby1" src="./Image/beauty.png" alt="">
+                        <img class="victor-10 p-2" src="./Image/Vector 13.png" alt="">
+                        <img class="victor-10 p-2" src="./Image/Vector 14.png" alt="">
+
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="reach-out-content">Reach Out To Us</h2>
+                        <p class="reach-out-content-2">We use our knowledge and expertise to provide the most effecient, effective
+                            and
+                            environmentally friendly cleaning possible. Having in mind the daily increase in percentage
+                            of children cancer patients world wide, skin reactions caused by harmful chemicals, high
+                            priced soaps leading to parents using products not ideal for children.</p>
+
+                        <button type="button" class="btn-5 btn-success">Contact Us Now!</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIES SECTION -->
+        <section class="Testimonies-sec">
+            <div class="container">
+                <h2 class="Testimonies-content">Read Our Testimonies</h2>
+                <p class="Testimonies-content-2">We use our knowledge and expertise to providethe most effecient, effective and
+                    environmentally <br>
+                    friendly cleaning possible</p>
+                <div class="row my-row-r mt-5 pt-5">
+                    <div class="  col-md-4 ">
+                        <div class="anish">
+                            <div class="float-right mr-3 mt-3">
+                                <p class=" prof-name">Abdul Wasiu Modu <br> <span class="owner">Laundry Owner</span></p>
+                            </div>
+                            <img class="prof-img" src="./Image/profel-1.png" alt="" width="30%">
+
+                            <p class="p-3 Testimonies-content-3"> I have tried it oooo, the thickness and smell is everything.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="  col-md-4">
+                        <div class="anish">
+                            <div class="float-right mr-3 mt-3">
+                                <p class="  prof-name">Abdul Wasiu Modu <br> <span class="owner">A Nursing Mother</span></p>
+                            </div>
+                            <img class="prof-img" src="./Image/profel-2.png" alt="" width="30%">
+                            <p class="p-3 Testimonies-content-3">Yeah I have bought after I gave birth because I feel my baby’s
+                                clothes deserve bqsafewash
+                                I and to protect his skin from rashes and allergies</p>
+                        </div>
+                    </div>
+
+                    <div class="  col-md-4">
+                        <div class="anish">
+                            <div class="float-right mr-3 mt-3">
+                                <p class=" prof-name">Abdul Wasiu Modu <br> <span class="owner">Laundry Owner</span></p>
+                            </div>
+                            <img class="prof-img" src="./Image/profel-3.png" alt="" width="30%">
+                            <p class="p-3 Testimonies-content-3">Yeah I have bought after I gave birth because I feel my baby’s
+                                clothes deserve bqsafewash
+                                I and to protect his skin from rashes and allergies</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 mt-5 rectangle">
+                        <img class="Rectangle-img" src="./Image/Rectangle 37.png" alt="" width="60%" height="100%">
+                        <img class="victor " src="./Image/Rectangle 38.png" alt="" width="60%" height="110%">
+                        <img class="victor " src="./Image/Rectangle 39.png" alt="" width="60%" height="110%">
+
+                    </div>
+                    <div class="vidoe-button">
+                        <img class="vidoe-center" src="./Image/vidoe-buttom.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FOOTER SECTOIN -->
+
+      
+        <section class="footer-section-bg">
+            <div class="box container">
+                <div class="row">
+                    <div class="col">
+                        <div class="row jona">
+                            <div class="col-md-6 aa">
+                                <img src="./Image/logo-2.png" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="information">Customer Service</h2>
+                                <ul>
+                                    <li>Become a Destributor</li>
+                                    <li>Ordering and Payment</li>
+                                    <li>Returns</li>
+                                    <li>FAQS</li>
+                                    <li>FAQS</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="information">Information</h2>
+                                <ul>
+                                    <li>About Safewash</li>
+                                    <li>Work with Us</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Terms and Conditions</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="information">Contact Us</h2>
+                                <ul>
+                                    <li>+23456778889996</li>
+                                    <li>safewash@gmail.com</li>
+                                    <a class="social" href="#"><i class=" m-1 fa fa-instagram"
+                                            aria-hidden="true"></i></a>
+                                    <a class="social" href="#"><i class=" m-1 fa fa-twitter-square"
+                                            aria-hidden="true"></i></a>
+                                    <a class="social" href="#"><i class=" m-1 fa fa-facebook-square"
+                                            aria-hidden="true"></i></a>
+                                    <a class="social" href="#"><i class=" m-1 fa fa-linkedin-square"
+                                            aria-hidden="true"></i></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="footer-section-sm">
+            <div class="box container">
+                <div class="row">
+                    <div class="col">
+                        <div class="row jona">
+                            <div class="col-md-6">
+                                <h2 class="information">Customer Service</h2>
+                                <ul>
+                                    <li>Become a Destributor</li>
+                                    <li>Ordering and Payment</li>
+                                    <li>Returns</li>
+                                    <li>FAQS</li>
+                                    <li>FAQS</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="information">Contact Us</h2>
+                                <ul>
+                                    <li>+23456778889996</li>
+                                    <li>safewash@gmail.com</li>
+                                    <a class="social" href="#"><i class=" m-1 fa fa-instagram"
+                                            aria-hidden="true"></i></a>
+                                    <a class="social" href="#"><i class=" m-1 fa fa-twitter-square"
+                                            aria-hidden="true"></i></a>
+                                    <a class="social" href="#"><i class=" m-1 fa fa-facebook-square"
+                                            aria-hidden="true"></i></a>
+                                    <a class="social" href="#"><i class=" m-1 fa fa-linkedin-square"
+                                            aria-hidden="true"></i></a>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="information">Information</h2>
+                                <ul>
+                                    <li>About Safewash</li>
+                                    <li>Work with Us</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Terms and Conditions</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./Image/logo-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section style="background: #21A4C4; padding-bottom: 1px;">
+            <p class="copyright text-center pt-3">&copy; bqsafewash 2021</p>
+        </section>
+
+    </section>
+
+
+    <script src="nav.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

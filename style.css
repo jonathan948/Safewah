@@ -1,0 +1,1480 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:  BR Firma;
+    src: url(br-firma-cufonfonts/BR\ Firma\ Black.otf);
+}
+/* NAVBAR SECTION */
+.navbar-desktop{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(213.01deg, #FFFFFF 4.13%, rgba(254, 150, 198, 0.5) 80.31%);
+
+}
+
+.carousel-sec{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(213.01deg, #FFFFFF 4.13%, rgba(254, 150, 198, 0.5) 80.31%);
+
+}
+
+.carousel-chid-1, .carousel-chid-2, .carousel-chid-3, .carousel-chid-4{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(213.01deg, #FFFFFF 4.13%, rgba(254, 150, 198, 0.5) 80.31%);
+
+}
+
+
+/* MOBIL NAVBAR */
+.mobil-nav{
+    font-size:30px;
+    cursor: pointer;
+    float: right;
+    margin-right: 18px;
+    display: none;
+}
+
+.mob-logo{
+    display: none;
+}
+
+.nav-mob {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(254, 150, 198, 0.3) 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .navbar-section{
+      border: solid 1px red;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+
+/* LANDING SECTION */
+
+.dash{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 90%;
+    padding: 2px;
+    background-color: gray !important;
+    position: relative;
+    top: 20% !important;
+}
+
+
+.carousel-content-2{
+font-family: BR Firma;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+color: #FE96C6;
+margin-top: 30%;
+/* position: absolute;
+right: 20%; */
+}
+
+.item-content-2{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 39px;
+line-height: 70px;
+color: #FE96C6;
+}
+
+.big-img{
+    width: 150%;
+    position: relative;
+    right: 20%;
+}
+
+
+.carousel-content-3{
+font-family:  BR Firma;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+ line-height: 50px;
+color: #FE96C6;
+margin-top: 20%;
+}
+
+.item-content-3{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 40px;
+color: #FE96C6;
+}
+
+.carousel-content-4{
+font-family: BR Firma;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 50px;
+color: #FE96C6;
+margin-top: 9%;
+}
+
+.item-content-4{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 10px;
+color: #FE96C6;
+margin-top: 7%;
+}
+
+.btn-w{
+    width: 277px;
+    height: 33px;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-weight: bold;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-top: 15vh;
+    background: #6EB245;
+    border: none;
+}
+
+.Liquid{
+    background-image: url("./Image/big-woman.png");
+    background-repeat:no-repeat ;
+    background-size: 100% ;
+    height: 650px;
+}
+
+
+.btn-{
+    width: 277px;
+    height: 33px;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-weight: bold;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    background: #6EB245;
+    border: none;
+}
+
+/* .baby{
+    overflow: hidden;
+} */
+.carousel-content-1{
+font-family: BR Firma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    color: #FE96C6;
+    width: 100%;
+    margin-top: 30%;
+    position: relative;
+    left: 8%;
+}
+
+.item-content-1{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 60px;
+color: #FE96C6;
+position: relative;
+left: 8%;
+}
+
+.btn{
+    width: 277px;
+    height: 33px;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-weight: bold;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: relative;
+    left: 8%;
+    background: #6EB245;
+}
+
+.btn-n{
+    width: 277px;
+    height: 33px;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-weight: bold;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: relative;
+    background: #6EB245;
+}
+
+
+.baby-img{
+    width: 140%;
+    position: relative;
+    right: 40%;
+}
+
+
+.baby-2{
+    position: relative;
+    border-radius: 50%;
+    width: 60%;
+    top: 39px;
+    left: 13px;
+    }
+
+    .victor-13{
+        position: absolute;
+        width: 65%;
+        height: 60%;
+        left: 7px;
+        top: 6px;
+        bottom: 18%;
+    }
+
+
+.vecto1{
+    margin-top: 20%;
+}
+/* .victor-13{
+    transform: rotate(10.57deg);
+
+    position: absolute;
+    width: 99%;
+    height: 5;
+    left: 20px;
+    top: 20px;
+} */
+
+
+
+.main-section-content-3{
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 161.68%;
+color: #483D3F;
+}
+ 
+.main-section-content-4{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 204.18%;
+
+color: #21A4C4;
+}
+
+.move-1{
+    
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 161.68%;
+color: #483D3F;
+}
+
+.main-section-content-3{
+ font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 204.18%;
+color: #6EB245;
+}
+
+.main-section-content-2{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 204.18%;
+
+color: #02998A;
+}
+.main-section{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(131.41deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9)
+ 15.33%, rgba(255, 210, 231, 0.9) 35.21%, rgba(254, 168, 208, 0.9) 51.11%, rgba(254, 166, 207, 0.9)
+  69.85%, rgba(255, 255, 255, 0.9) 98.24%, rgba(255, 255, 255, 0.9) 109.03%);
+
+  padding: 10%;
+}
+
+/*ABOUT US MAIN SECTION */
+
+.about-content-2{ 
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 180%;
+
+color: #776E70;
+}
+
+.About-us-sec{
+    padding-top: 14%;
+    margin-bottom: 13%;
+}
+
+.about-content-col{
+    margin-top: 20%;
+}
+
+.about-content{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 161.18%;
+
+color: #795A69;
+}
+
+.mama{
+border-bottom-right-radius: 30%;
+border-bottom-left-radius: 10%;
+}
+
+.btn-2{
+    width: 202px;
+    height: 33px;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border: solid 1px #6EB245;
+}
+
+.distributtor-content{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 204.18%;
+    text-align: center;
+    color: #21A4C4; 
+}
+
+.distributtor-content-2{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+text-align: center;
+color: #776E70;
+}
+
+ /* Distributors-MAIN SECTION  */
+
+.profel-1{
+    border-radius: 50%;
+    border-left: solid 9px palegreen ;
+}
+
+.profel-2{
+    border-radius: 50%;
+    border-left: solid 9px rgb(114, 114, 209);
+}
+
+.profel-3{
+    border-radius: 50%;
+    border-left: solid 9px pink ;
+}
+
+.anisha,.anisha,.anisha{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px #F4F4F9;
+    width: 293px;
+    height: 290px;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+.distributtor-content-4,.distributtor-content-4,.distributtor-content-4{
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #776E70;
+padding: 5px;
+}
+
+.distributtor-content-3,.distributtor-content-3,.distributtor-content-3{
+font-family: BR Firma;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+margin-top: 34%;
+text-align: center;
+color: #6EB245;
+}
+
+.btn-3,.btn-3,.btn-3{
+background: #21A4C4;
+border-radius: 8px;
+width: 105px;
+height: 34px;
+border: solid 1px  #21A4C4;
+}
+
+.btn-4{
+width: 262px;
+height: 52px;
+background: #6EB245;
+border-radius: 13px 13px 13px 0px;
+border: solid 1px #6EB245;
+
+}
+
+#contact{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(137.03deg, rgba(255, 255, 255, 0.95) 47.28%, rgba(254, 150, 198, 0.95) 152.37%);
+padding-bottom: 10%;
+}
+
+/* REACH OUT SECTION */
+.reach{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(137.03deg, rgba(255, 255, 255, 0.95) 47.28%, rgba(254, 150, 198, 0.95) 152.37%);
+padding-bottom: 10%;
+ padding-top:  17%;
+}
+
+.reach-out-content-2{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 204.18%;
+color: #776E70;
+}
+
+.reach-out-content{
+margin-top: 24%;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+color: #795A69;
+}
+
+.btn-5{
+width: 166px;
+height: 52px;
+background-color: #6EB245;
+color: #FFFFFF;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+border-radius: 13px 13px 13px 0px;
+border: solid 1px #6EB245;
+}
+
+.baby1{
+    position: relative;
+    border-radius: 50%;
+    width: 60%;
+    top: 20px;
+    left: 13px;
+    }
+
+    .victor-10{
+        position: absolute;
+        width: 65%;
+        height: 84%;
+        left: 5px;
+        top: 7px;
+        bottom: 10%;
+    }
+.be{
+    width: 80%;
+}
+
+/* TESTIMONIES SECTION  */
+.Testimonies-content{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 204.18%;
+text-align: center;
+color: #21A4C4;
+}
+
+.Testimonies-content-2{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 161.68%;
+text-align: center;
+color: #776E70; 
+}
+
+.anish,.anish,.anish{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px #F4F4F9;
+    width: 293px;
+    height: 290px;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+span{
+    margin-left: 20px;
+}
+.prof-img{
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+}
+
+.prof-name{
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 161.68%;
+color: #21A4C4;
+}
+
+.owner{
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #776E70;
+}
+
+.thickness{
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 161.68%;
+color: #776E70;
+}
+
+.rectangle{
+    margin: 0 auto;
+    display: block;
+}
+
+.Rectangle-img{
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    display: block;
+    }
+
+    .baby-{
+        position: relative;
+        top: 20px;
+        margin: 0 auto;
+        display: block;
+        }
+
+    
+.victor{
+    position: absolute;
+    top: 6px;
+    bottom: 10%;
+    left: 20%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom:  11%;
+}
+
+.rectangle{
+    padding-bottom:  10%;
+}
+
+
+.Testimonies-sec{
+    padding-top: 17%;
+}
+
+.vidoe-button{
+    background: rgba(72, 61, 63, 0.47);
+    width: 130px;
+    height: 70px;
+    padding: 14px;
+    border-radius: 12px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 40vh;
+
+}
+
+.vidoe-center{
+    margin: 0 auto;
+    display: block;
+    padding-left: 20px;
+}
+
+/* FOOTER SECTION */
+ul{
+    list-style: none;
+}
+
+.social:link{
+  color: black !important;
+}
+
+
+.social{
+    color: black !important;
+  }
+
+.footer-section-bg{
+    background: rgba(184, 219, 217, 0.2);
+    margin-top: 90px;
+    padding: 20px;
+}
+
+.footer-section-sm {
+    display: none;
+    background: rgba(184, 219, 217, 0.2);
+    margin-top: 90px;
+    padding: 20px;
+}
+
+.information{
+font-family: BR Firma;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 204.18%;
+color: #000000;
+}
+
+.copyright{
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: rgba(255, 255, 255, 0.98);
+}
+
+.fa{
+    cursor: pointer;
+    font-size: 28px;
+}
+
+
+@media(max-width: 768px){
+
+.mobil-nav{
+     display: none;
+    }
+
+    .mob-logo{
+        display: none;
+    }
+
+    .victor-13{
+    position: absolute;
+    width: 60%;
+    height: 138px;
+    left: 4%;
+    top: 6%;
+    bottom: 16%;
+    }
+
+    .distributtor-content-5{
+        margin-top: 50px;
+    }
+
+.victor-10{
+    position: absolute;
+    width: 65%;
+    height: 227px;
+    bottom: 15%;
+    }
+
+
+.Testimonies-content{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #21A4C4;
+    }
+
+ .carousel-content-1{
+    font-size: 38px;
+    line-height: 50px;
+    color: #FE96C6;
+    width: 100%;
+    margin-top: 10%;
+    position: relative;
+    left: 0%;
+    } 
+
+
+.item-content-1{
+
+    font-size: 38px;
+    line-height: 60px;
+    color: #FE96C6;
+    position: relative;
+    left: 0%;
+    bottom: 15px;
+    }
+
+    
+    .anish,.anish,.anish{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 31px #F4F4F9;
+        width: 100%;
+        height: 90%;
+        margin: 0 auto;
+        margin: 0px;
+    }
+
+    .prof-name{
+        font-size: 13px;
+        margin-left: 30px;
+    }
+    
+    .prof{
+        position: relative;
+        bottom: 30%;
+    }
+
+    .anisha,.anisha,.anisha{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 31px #F4F4F9;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin: 0px;
+    }
+
+        
+.btn{
+    width: 277px;
+    height: 33px;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 0%;
+    bottom: 10%;
+    background: #6EB245;
+}
+
+
+.carousel-content-4{
+    font-size: 38px;
+    line-height: 50px;
+    color: #FE96C6;
+    padding-top: 30%;
+    margin-top: 70%;
+    text-align: start;
+    margin: 20px;
+    }
+
+.item-content-4{
+    font-size: 38px;
+    line-height: 112%;
+    color: #FE96C6;
+    margin-top: 14%;
+    margin-bottom: 20%;
+    text-align: start;
+    margin: 10px;
+    }
+
+    
+.btn-w{
+    width: 277px;
+    height: 33px;
+    margin-top: 0px;
+    background: #6EB245;
+    border: none;
+    margin-right: 10%;
+}
+
+.btn-n{
+    width: 277px;
+    height: 33px;
+    position: relative;
+    right: 0%;
+    background: #6EB245;
+}
+
+.Liquid{
+    background-image: url("./Image/big-woman.png");
+    background-repeat:no-repeat ;
+    background-size: 90% ;
+    height: 650px;
+    width: 100%;
+    margin: right;
+    display: block;
+}
+
+
+.carousel-content-2{
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FE96C6;
+     position: relative;
+     bottom: 20vh;
+    }
+
+.baby-img{
+    width: 100%;
+    position: relative;
+    right: 0px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-{
+    width: 277px;
+    height: 33px;
+    position: relative;
+    bottom: 20vh !important;
+    background: #6EB245;
+}
+.item-content-2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 40px;
+    position: relative;
+    bottom: 20vh;
+    }
+
+.baby-{
+    position: relative;
+    top: 0px;
+    bottom: 80%;
+    margin: 0 auto;
+    display: block;
+    }
+
+
+.big-boy{
+    width: 120%;
+    position: relative;
+    right: 0px;
+    bottom: 5vh;
+}
+
+
+.big-woman{
+    width: 100%;
+}
+
+.mama{
+     margin-top: 48px;
+    }
+
+.victor {
+    height: 120%;
+    }
+
+    .vidoe-button{
+        width: 60px;
+        height: 50px;
+        border-radius: 10px;
+        margin: 0 auto;
+        position: relative;
+        bottom:160px;
+        padding: 4px;
+    
+    }
+
+    .footer-section-bg {
+        display: none;
+    }
+    .footer-section-sm {
+        display: block;
+    }
+
+}
+
+
+@media(max-width: 540px){
+
+    .mobil-nav{
+        display: block;
+    }
+    
+    .mob-logo{
+        display: block;
+        margin: 10px;
+    }
+    
+    .my-row-r{
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .carousel-row{
+        text-align: center;
+    }
+   
+
+    .my-row-{
+        margin: 0 auto;
+        display: block;
+        }
+    
+        .victor-13{
+        position: absolute;
+        width: 60%;
+        height: 33%;
+        left: 25%;
+        top: 10%;
+        bottom: 18%;
+        }
+    
+    .victor-10{
+        position: absolute;
+        width: 65%;
+        height: 110%;
+        left: 20%;
+        top: 6%;
+        bottom: 15%;
+        }
+    
+    .Testimonies-content{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 70px;
+        text-align: center;
+        color: #21A4C4;
+        }
+    
+     .carousel-content-1{
+        font-size: 38px;
+        line-height: 50px;
+        color: #FE96C6;
+        width: 100%;
+        margin-top: 30%;
+        position: relative;
+        left: 0%;
+        } 
+    
+    
+    .item-content-1{
+    
+        font-size: 38px;
+        line-height: 60px;
+        color: #FE96C6;
+        position: relative;
+        left: 0%;
+        }
+    
+        
+        .anish,.anish,.anish{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 31px #F4F4F9;
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            margin: 0px;
+        }
+        
+        .anisha,.anisha,.anisha{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 31px #F4F4F9;
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            margin: 0px;
+        }
+    
+            
+    .btn{
+        width: 100% !important;
+        height: 33px;
+        color: #FFFFFF;
+        line-height: 20px;
+        font-weight: bold;
+        position: relative;
+        left: 0%;
+        background: #6EB245;
+    }
+    
+    
+    .carousel-content-4{
+        font-size: 38px;
+        line-height: 50px;
+        color: #FE96C6;
+        padding-top: 30%;
+        margin-top: 70%;
+        text-align: start;
+        margin: 20px;
+        }
+    
+    .item-content-4{
+        font-size: 38px;
+        line-height: 112%;
+        color: #FE96C6;
+        margin-top: 14%;
+        margin-bottom: 20%;
+        text-align: start;
+        margin: 10px;
+        }
+    
+        
+    .btn-w{
+        width: 277px;
+        height: 33px;
+        margin-top: 0px;
+        background: #6EB245;
+        border: none;
+        margin-right: 10%;
+    }
+    
+    .btn-n{
+        width: 100% !important;
+        height: 33px;
+        position: relative;
+        right: 0px !important;
+        background: #6EB245;
+    }
+    
+    .Liquid{
+        background-image: url("./Image/big-woman.png");
+        background-repeat:no-repeat ;
+        background-size: 90% ;
+        height: 650px;
+        width: 100%;
+        margin: right;
+        display: block;
+    }
+    
+    
+    .carousel-content-2{
+        font-family: BR Firma;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FE96C6;
+         position: relative;
+         bottom: 20vh;
+        }
+    
+    .baby-img{
+        width: 100%;
+        position: relative;
+        right: 0px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .btn-{
+        width: 277px;
+        height: 33px;
+        position: relative;
+        bottom: 20vh !important;
+        background: #6EB245;
+    }
+    .item-content-2{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 39px;
+        line-height: 40px;
+        position: relative;
+        bottom: 20vh;
+        }
+    
+    .baby-{
+        position: relative;
+        top: 0px;
+        bottom: 80%;
+        margin: 0 auto;
+        display: block;
+        }
+    
+    
+    .big-boy{
+        width: 120%;
+        position: relative;
+        right: 0px;
+        bottom: 5vh;
+    }
+    
+    .navbar{
+        display: none;
+    }
+    
+    .big-woman{
+        width: 100%;
+    }
+    
+    .mama{
+         margin-top: 48px;
+        }
+    
+    .victor {
+        height: 120%;
+        }
+
+        .vidoe-button{
+            width: 50px;
+            height: 30px;
+            border-radius: 10px;
+            margin: 0 auto;
+            position: relative;
+            bottom: 11vh;
+            padding: 4px;
+        
+        }
+
+        .vidoe-center{
+            margin: 0 auto;
+            display: block;
+            width: 20px;
+            padding-left: 1px;
+        }
+    
+        .footer-section-bg {
+            display: none;
+        }
+        .footer-section-sm {
+            display: block;
+        }
+    
+    }
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+  @media(max-width: 320px){
+  
+.anish,.anish,.anish{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px #F4F4F9;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin: 0px;
+}
+
+.anisha,.anisha,.anisha{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px #F4F4F9;
+    width: 100%;
+    height: 100%px;
+    margin: 0 auto;
+    margin: 0px;
+}
+
+
+.btn-{
+    width: 100%;
+    height: 33px;
+    position: relative;
+    bottom: 20vh !important;
+    background: #6EB245;
+    font-size: 12px;
+}
+
+.btn-n{
+    width: 10%;
+    height: 33px;
+    position: relative;
+    right: 0%;
+    background: #6EB245;
+    font-size: 12px;
+}
+
+.item-content-2{
+    font-size: 30px;
+    line-height: 40px;
+    position: relative;
+    bottom: 15vh;
+    }
+
+.carousel-content-2{
+    font-size: 30px;
+    line-height: 40px;
+    color: #FE96C6;
+     position: relative;
+     bottom: 15vh;
+    }
+
+    
+ .carousel-content-1{
+    font-size: 30px;
+    line-height: 40px;
+    color: #FE96C6;
+    width: 100%;
+    margin-top: 30%;
+    position: relative;
+    left: 0%;
+    } 
+    
+.item-content-1{
+    font-size: 30px;
+    line-height: 40px;
+    color: #FE96C6;
+    position: relative;
+    left: 0%;
+    }
+
+ .btn{
+    width: 104%;
+    height: 33px;
+    color: #FFFFFF;
+    line-height: 20px;
+    position: relative;
+    left: 0%;
+    font-size: 11px;
+    }
+    .carousel-content-3{
+    font-size: 29px;
+    line-height: 40px;
+    color: #FE96C6;
+    margin-top: 20%;
+    }
+
+    .item-content-3{
+    font-size: 29px;
+    line-height: 40px;
+    color: #FE96C6;
+    }
+
+.small-imag{
+    position: relative;
+    bottom: 8vh;
+    padding-top: 10vh;
+    }
+    .baby-img{
+    position: relative;
+    bottom: 8vh;
+    padding-top: 10vh; 
+    }
+
+    .victor-13{
+     position: absolute;
+     width: 60%;
+     height: 27%;
+     left: 25%;
+     top: 10%;
+     bottom: 18%;
+    }
+
+.btn-4{
+    width: 100%;
+    }
+
+    .footer-section-bg {
+        display: none;
+    }
+    .footer-section-sm {
+        display: block;
+    }
+
+  }
+
+  @media(max-width: 360px){
+
+    .victor-13{
+        position: absolute;
+        width: 60%;
+        height: 27%;
+        left: 25%;
+        top: 10%;
+        bottom: 18%;
+        }
+  
+    .anish,.anish,.anish{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 31px #F4F4F9;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin: 0px;
+    }
+    
+    .anisha,.anisha,.anisha{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 31px #F4F4F9;
+        width: 100%;
+        height: 100%px;
+        margin: 0 auto;
+        margin: 0px;
+    }
+    
+    
+    .btn-{
+        width: 100%;
+        height: 33px;
+        position: relative;
+        bottom: 20vh !important;
+        background: #6EB245;
+        font-size: 12px;
+    }
+    
+    .btn-n{
+        width: 140%;
+        height: 33px;
+        position: relative;
+        right: 17%;
+        background: #6EB245;
+        font-size: 12px;
+    }
+    
+    .item-content-2{
+        font-size: 30px;
+        line-height: 40px;
+        position: relative;
+        bottom: 15vh;
+        }
+    
+    .carousel-content-2{
+        font-size: 30px;
+        line-height: 40px;
+        color: #FE96C6;
+         position: relative;
+         bottom: 15vh;
+        }
+    
+        
+     .carousel-content-1{
+        font-size: 30px;
+        line-height: 40px;
+        color: #FE96C6;
+        width: 100%;
+        margin-top: 30%;
+        position: relative;
+        left: 0%;
+        } 
+        
+    .item-content-1{
+        font-size: 30px;
+        line-height: 40px;
+        color: #FE96C6;
+        position: relative;
+        left: 0%;
+        }
+    
+     .btn{
+        width: 104%;
+        height: 33px;
+        color: #FFFFFF;
+        line-height: 20px;
+        position: relative;
+        left: 0%;
+        font-size: 11px;
+        }
+        .carousel-content-3{
+        font-size: 29px;
+        line-height: 40px;
+        color: #FE96C6;
+        margin-top: 20%;
+        }
+    
+        .item-content-3{
+        font-size: 29px;
+        line-height: 40px;
+        color: #FE96C6;
+        }
+    
+    .small-imag{
+        position: relative;
+        bottom: 8vh;
+        padding-top: 10vh;
+        }
+        .baby-img{
+        position: relative;
+        bottom: 8vh;
+        padding-top: 10vh; 
+        }
+    .btn-4{
+        width: 100%;
+    }
+
+    .footer-section-bg {
+        display: none;
+    }
+    .footer-section-sm {
+        display: block;
+    }
+    
+      }
